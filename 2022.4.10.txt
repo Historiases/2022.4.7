@@ -1,0 +1,23 @@
+#include<stdio.h>
+int MAX(int x, int y)
+{
+    if (x > y)
+        return x;
+    else
+        return y;
+}
+int main()
+{
+    printf("input a and b=");
+    int a, b, max;
+    scanf("%d%d", &a, &b);
+    max = MAX(a, b);
+    printf("The max of a and b :%d\n", max);
+
+    return 0;
+
+
+
+
+
+}
