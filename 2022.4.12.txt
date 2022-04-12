@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main( )
+{
+    printf("Please enter h,w:\n");
+    float h,w,t;
+    scanf("%f,%f",&h,&w);
+    t=w/(h*h);
+    if(t<18)
+    printf("Lower weight!\n");
+    else if(t>=18&&t<25)
+    printf("Standard weight!\n");
+    else if(t>=25&&t<27)
+    printf("Higher weight!\n");
+    else if(t>=27)
+    printf("Too fat!\n");
+    
+    return 0;
+    
+    
+}
